@@ -1,16 +1,14 @@
 function filterArray(numbers, value) {
 
-    result = [];
+  const result = [];
 
- for (let i = 0; i < numbers.length; i += 1) {
-    
-    if (value<numbers[i]) {
+  for (let i = 0; i < numbers.length; i += 1) {
+      if (value<numbers[i]) {
       result.push(numbers[i]);
     }
-
     }
     
-    return result;
+  return result;
 
 }
 
