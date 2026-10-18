@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function slugify(title) {
 
     const lowertitle = title.toLowerCase();
@@ -13,3 +14,5 @@ console.log(slugify("English for developer"));
 console.log(slugify("Ten secrets of JavaScript"));
 console.log(slugify("How to become a JUNIOR developer in TWO WEEKS"));
 
+=======
+>>>>>>> c12b21cfa124fb3882947a8498c140e1316b104c
